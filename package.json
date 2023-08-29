@@ -1,0 +1,10 @@
+{
+  "name": "study-esc-modules",
+  "version": "1.0.1",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "@romanenko.pavlo/my-library": "^0.0.1"
+  }
+}
