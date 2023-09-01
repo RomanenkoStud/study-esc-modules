@@ -1,8 +1,10 @@
 import { useState, ChangeEvent } from 'react'
-import { greet } from 'https://unpkg.com/@romanenko.pavlo/my-library@0.0.1/dist/my-library.js'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+
+// @ts-ignore
+import { greet } from 'my-library';
 
 function App() {
   const [username, setUsername] = useState<string>('');
