@@ -86,6 +86,7 @@ import { greet } from 'my-library';
 ## Optional
 
 To install library as seperate package run:
-    ```sh
-    npm i @romanenko.pavlo/my-library
-    ```
+
+```sh
+npm i @romanenko.pavlo/my-library
+```
